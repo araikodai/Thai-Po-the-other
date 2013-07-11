@@ -1,0 +1,14 @@
+
+
+#adm-cache-chart {
+    float:left;
+    height:300px; 
+    width:500px; 
+    background-color:#fff;
+}
+
+#adm-cache-clear {
+    position:relative;
+    float:left;
+    width:270px; 
+}

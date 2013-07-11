@@ -1,0 +1,9 @@
+/*--- Installed/Not-Installed Modules, Available Updates styles ---*/
+div.catgs-items {}
+div.catgs-item {}
+div.catgs-item span.catgs-item-title {
+    font-weight: bold;
+}
+div.catgs-item input.form_input_checkbox {
+	margin-left: 0px;
+}

@@ -1,0 +1,51 @@
+div.bx_videos-wall-event {
+    position: relative;    
+}
+div.bx_videos-wall-caption {
+    height: 30px;
+    padding-left: 20px;
+    
+    position: relative;
+    
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    
+    line-height: 30px; 
+}
+span.bx_videos-wall-caption-owner {
+    font-weight: bold;
+}
+a.bx_videos-wall-caption-link,
+a.bx_videos-wall-caption-link:link {
+    text-decoration: none;
+}
+a.bx_videos-wall-caption-link:hover,
+a.bx_videos-wall-caption-link:active {
+    text-decoration: underline;
+}
+div.bx_videos-wall-content {
+    position: relative;
+}
+div.bx_videos-wall-shp-wrapper {    
+    position: relative;
+    float: left;
+	overflow: hidden;
+}
+div.bx_videos-wall-content-grouped div.bx_videos-wall-shp-wrapper:first-child {
+    margin-left: 0px;
+}
+div.bx_videos-wall-comments {
+    padding-left: 0px;
+}
+
+/*--- Overwrite default Comment styles ---*/
+div.bx_videos-wall-comments div.cmts {
+    padding: 0px;
+}
+div.bx_videos-wall-comments div.cmt-reply {
+    padding: 0px;
+}
+div.bx_videos-wall-comments div.thumbnail_block {
+    left: -38px;
+    top: 1px;
+}

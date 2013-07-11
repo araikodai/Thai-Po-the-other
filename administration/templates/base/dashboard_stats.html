@@ -1,0 +1,53 @@
+<div class="adm-dashboard-stats">
+    
+    <div class="adm-ds-important">
+        <bx_repeat:items_important>
+            <div class="adm-ds-item">
+                <bx_if:show_link>
+                    <a href="__link__"><span class="bx-def-font-h1">__number__</span> __caption__</a>
+                </bx_if:show_link>
+                <bx_if:show_text><span class="bx-def-font-h1">__number__</span> __caption__</bx_if:show_text>
+            </div>
+        </bx_repeat:items_important>
+    </div>
+
+    <div class="clear_both"></div>
+
+    <div class="bx-def-hr bx-def-margin-sec-top bx-def-margin-sec-bottom"></div>
+
+    <div class="adm-ds-common">
+        <bx_repeat:items_common>
+            <div class="adm-ds-item">
+                <bx_if:show_link>
+                    <a href="__link__"><span class="bx-def-font-h1">__number__</span> __caption__</a>
+                </bx_if:show_link>
+                <bx_if:show_text><span class="bx-def-font-h1">__number__</span> __caption__</bx_if:show_text>
+            </div>
+        </bx_repeat:items_common>
+        <div class="clear_both"></div>        
+    </div>
+
+
+    <div id="adm-ds-common-chart" class="bx-def-border"></div>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script>
+        
+        google.load("visualization", "1", {packages:["corechart"]});
+        google.setOnLoadCallback(bx_stat_show_chart);
+
+        function bx_stat_show_chart () {
+            var data = google.visualization.arrayToDataTable([
+                ['Content', 'Count'] __common_chart_data__
+            ]);
+
+            var options = {};
+
+            var chart = new google.visualization.PieChart($('#adm-ds-common-chart')[0]);
+            chart.draw(data, options);
+        }
+
+    </script>
+
+    <div class="clear_both"></div>        
+
+</div>

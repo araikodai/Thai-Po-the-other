@@ -1,0 +1,53 @@
+div.bx_sounds-wall-event {  
+    position: relative;    
+}
+div.bx_sounds-wall-caption {
+    height: 30px;
+    padding-left: 20px;
+    
+    position: relative;
+    
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    
+    line-height: 30px; 
+}
+span.bx_sounds-wall-caption-owner {
+    font-weight: bold;
+}
+a.bx_sounds-wall-caption-link,
+a.bx_sounds-wall-caption-link:link {
+    text-decoration: none;
+}
+a.bx_sounds-wall-caption-link:hover,
+a.bx_sounds-wall-caption-link:active {
+    text-decoration: underline;
+}
+div.bx_sounds-wall-content {
+    position: relative;
+}
+div.bx_sounds-wall-shp-wrapper {    
+    position: relative;
+    float: left;
+	overflow: hidden;
+}
+div.bx_sounds-wall-content-grouped div.bx_sounds-wall-shp-wrapper:first-child {
+    margin-left: 0px;
+}
+div.bx_sounds-wall-comments {
+    padding-left: 0px;
+}
+
+/*--- Overwrite default Comment styles ---*/
+div.bx_sounds-wall-comments div.cmts {
+    padding: 0px;
+    /*display: none;*/
+}
+div.bx_sounds-wall-comments div.cmt-reply {
+    padding: 0px;
+    /*display: none;*/
+}
+div.bx_sounds-wall-comments div.thumbnail_block {
+    left: -38px;
+    top: 1px;
+}

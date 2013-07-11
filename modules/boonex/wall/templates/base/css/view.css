@@ -1,0 +1,313 @@
+div.wall-clear {
+    clear:both;
+    font-size:0px;
+}
+div.wall-view {
+    position: relative;
+}
+div.wall-load-more .bx-btn {
+    float: none;
+}
+
+/*--- Timeline Styles ---*/
+div.wall-timeline {}
+div.wall-timeline-cnt {}
+div.wall-tl-caption {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 26px;
+}
+div.wall-timeline div.input_wrapper_doublerange {
+	float: none;
+	width: auto;
+	margin-left: 130px;
+	margin-bottom: 0px;
+}
+
+/*--- Divider Styles ---*/
+div.wall-divider,
+div.wall-divider-today {
+    position: relative;
+    font-size: 11px;
+}
+div.wall-divider-cnt {
+    width: 145px;
+    border: 4px solid #e8e8e8;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    background-color: #ffffff;
+    text-align: center;
+	text-transform: uppercase;
+	color: #999999;
+}
+div.wall-divider-today div.wall-divider-cnt {
+    
+}
+div.wall-divider-nerrow {
+    position: relative;
+    height: 2px;
+    background-color: #cccccc;
+}
+div.visible {
+    display: block;
+}
+div.hidden {
+    display: none;
+}
+
+/*--- Event Styles ---*/
+div.wall-events {}
+div.wall-event {
+    position: relative;
+	margin: 0px;
+}
+
+div.wall-event-cnt {
+	position: relative;
+	min-height: 32px;
+	margin: 0px 0px 0px 52px;
+	padding: 10px 0px 20px 0px;
+	border-left: 2px solid #e8e8e8;
+}
+
+div.wall-event-circle-empty {
+	position: absolute;
+	top: 19px;
+	left: -7px;
+	width: 8px;
+	height: 8px;
+	border: 2px solid #e8e8e8;
+	border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+	background-color: #ffffff;
+}
+
+div.wall-event-circle {
+    position: absolute;
+    top: 11px;
+    left: -16px;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #e8e8e8;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	
+    background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: center center;
+        
+    text-align:center;
+    line-height:28px;
+    color:#999999;
+}
+
+div.wall-event-circle .sys-icon {
+    display:inline-block;
+    min-width:16px;
+    margin-top:1px;
+    font-size:16px;
+    text-align:center;
+}
+
+/*--- Event Caption Styles ---*/
+div.wall-caption,
+div.wall-caption-withicon {
+    position: relative;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	padding-left: 0px;
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+}
+div.wall-caption-withicon {
+	padding-left: 20px;
+}
+div.wall-caption .bullet {
+	padding: 0px 5px;
+}
+span.wall-caption-owner {
+    font-weight: bold;
+}
+a.wall-caption-link,
+a.wall-caption-link:link {
+    text-decoration: none;
+    /*color: #3333cc;*/
+}
+a.wall-caption-link:hover,
+a.wall-caption-link:active {
+    text-decoration: underline;
+}
+a.wall-cl-bold {
+	font-weight: bold;
+}
+
+/*--- Event Content Styles ---*/
+div.wall-content {
+    position: relative;
+	margin-left: 20px;
+    overflow: hidden;
+}
+div.wall-content p:last-child {
+	margin-bottom: 0px;
+}
+div.wall-content-wrapper {
+	overflow: hidden;
+}
+div.status-message {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+}
+div.wall-event div.friend-info div.thumbnail_block {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+div.wall-shp-wrapper {    
+    position: relative;
+    
+    border: 1px solid #cccccc;    
+}
+img.wall-shp {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*--- Event Snippet styles ---*/
+div.wall-snippet {
+	margin-left: 20px;
+	padding: 10px;
+	border: 1px solid #dadada;
+}
+
+div.wall-snippet div.wall-thumbnail, 
+div.wall-snippet div.wall-info {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+div.wall-snippet div.wall-info {
+	max-width: 525px;
+}
+div.wall-snippet div.wall-title {
+	font-weight: bold;
+} 
+div.wall-snippet p:last-child {
+    margin-bottom: 0px;
+}
+div.wall-event div.wall-snippet div.thumbnail_block {
+	position: relative;
+	top: 0px;
+}
+
+/*--- Common Post styles ---*/
+div.common div.wall-caption {
+	padding-left: 0px;
+}
+div.wall-event div.thumbnail_block {
+	position: absolute;
+	top: 10px;
+    left: 0px;
+}
+a.wall-author {
+    text-decoration: none;
+	font-weight: bold;
+}
+span.wall-posted-ago {
+    text-transform: lowercase;
+    font-size: 10px;       
+}
+div.wall-body {
+    position: relative;
+}
+
+
+
+div.wall-post-link {
+    position: relative;
+}
+div.wall-lnk-title {
+    position: relative;
+}
+div.wall-lnk-url {
+    padding-bottom: 5px;
+    position: relative;
+}
+div.wall-lnk-description {
+    position: relative;
+}
+div.wall-post-media {
+    position: relative;
+    clear: both;
+}
+div.wall-pm-thumbnail {
+	position: relative;
+    float: left;
+    margin-right: 5px;
+}
+img.wall-pm-thumbnail {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*--- Comment Styles ---*/
+div.wall-comments {
+	position: relative;
+	margin-left: 20px;
+}
+div.wall-comments-view-ctl,
+div.wall-comments-post-ctl {    
+    position: relative;
+    float: left;
+    
+    line-height: 10px;
+}
+div.wall-comments-view-ctl {    
+    text-align: left;
+}
+div.wall-comments-post-ctl {
+    float: right;
+    text-align: right;
+}
+div.wall-comments-view-cnt,
+div.wall-comments-post-cnt {
+    position: relative;
+    clear: both;
+    display: none;
+}
+
+/*--- Overwrite default Comment styles ---*/
+div.wall-event div.wall-comments{
+    margin-top: 5px;
+}
+div.wall-event div.wall-comments div.bullet {
+    position: relative;
+	float: left;
+	padding: 0px 5px;
+}
+div.wall-event div.wall-comments div.cmts {
+	margin-top: 10px;
+    padding: 0px;
+}
+div.wall-event div.wall-comments span.wall-date,
+div.wall-event div.wall-comments a.cmt-replies-show,
+div.wall-event div.wall-comments a.cmt-replies-hide,
+div.wall-event div.wall-comments a.cmt-reply-toggle,
+div.wall-event div.wall-comments a.wall-delete {
+    margin: 0px;
+	padding: 0px;
+    text-transform: capitalize;
+}
+div.wall-event div.wall-comments div.thumbnail_block {
+    left: -38px;
+    top: 1px;
+}
+div.wall-event div.wall-comments li.cmt div.cmt-replies,
+div.wall-event div.wall-comments li.cmt div.cmt-post-reply-to {
+	margin: 0px 0px 0px 5px;
+}

@@ -1,0 +1,18 @@
+div.bx_files-wall-oii-image-wrp {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+img.bx_files-wall-oii-image {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #ffffff;
+}
+
+div.bx_files-wall-oi-item-grouped div.bx_files-wall-oii-image {
+	position: relative;
+	float: left;
+
+	width: auto;
+}

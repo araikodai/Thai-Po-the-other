@@ -1,0 +1,11 @@
+.result_block {
+    position: relative;
+}
+
+.album_preview {
+    text-align: center;
+}
+
+.sys_file_search_pic {
+    height: 102px;
+}

@@ -1,0 +1,437 @@
+/* * * * Table * * * */
+
+.form_advanced_wrapper {
+	overflow: hidden;
+}
+
+.form_advanced_table {
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+}
+
+.form_advanced_table select,
+.form_advanced_table input[type=text],
+.form_advanced_table input[type=date],
+.form_advanced_table input[type=datetime],
+.form_advanced_table input[type=date_time],
+.form_advanced_table input[type=date_calendar],
+.form_advanced_table input[type=number],
+.form_advanced_table input[type=email],
+.form_advanced_table input[type=url],
+.form_advanced_table input[type=password],
+.form_advanced_table textarea {
+    padding: 1px;
+    margin-left: 0px;
+    outline: none;
+	vertical-align: middle;
+}
+
+.form_advanced_table textarea {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+	vertical-align: middle;
+}
+
+.form_advanced_table th,
+.form_advanced_table td {
+    padding: 8px;
+    border-bottom: 1px solid #dadada;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.form_advanced_table td.colspan b {
+	text-transform:capitalize;
+}
+
+.form_advanced_table th.block_header {
+    text-align: left;
+    font-weight: normal;
+    background-color: #ececec;
+}
+
+.form_advanced_table td.caption {
+    text-align: right;
+    width: 35%;
+    
+    padding-right:2px;
+    padding-top:11px;
+
+    text-transform:capitalize;
+}
+
+.form_advanced_table td.value {
+    padding-left:2px;
+    padding-right: 9px;
+}
+
+.form_advanced_table .required {
+    color: red;
+}
+
+/* * * * [end] Table * * * */
+
+
+
+
+/* * * * Inputs and Wrappers * * * */
+
+.input_wrapper {
+    float: left;
+    position: relative;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.input_wrapper_input_set {
+    float: none;
+}
+
+.input_wrapper_text,
+.input_wrapper_email,
+.input_wrapper_url,
+.input_wrapper_date,
+.input_wrapper_datetime,
+.input_wrapper_password,
+.input_wrapper_number
+{
+    padding: 0px 2px 0px 0px;
+    height: 20px;
+    background-color:#fff;
+}
+
+.input_wrapper_slider,
+.input_wrapper_range,
+.input_wrapper_doublerange {
+	width: 135px;
+    height: 20px;
+    padding: 4px 4px 0px 4px;
+    background-color:#fff;
+}
+
+.input_wrapper_textarea {        
+    padding: 2px;
+    background-color: #fff;
+}
+
+.input_wrapper_textarea .mceEditor table.mceLayout {
+    border: none;
+}
+
+.input_wrapper_textarea .mceEditor table.mceLayout td {
+    padding: 0px;
+}
+
+.input_wrapper_textarea .mceEditor table.mceLayout tr.mceFirst td {
+    border-top: none;
+}
+
+.input_wrapper_textarea .mceEditor table.mceLayout tr.mceLast td {
+    border-bottom: none;
+}
+
+.form_input_file,
+.form_input_select,
+.form_input_select_multiple,
+.form_input_select_box,
+.form_input_slider,
+.input_wrapper_select_box .form_input_text
+{
+    width: 198px;
+    border: 1px solid #999;
+    background-color: #fff;
+    margin-bottom: 1px;
+}
+
+.form_input_file {
+    border:none;
+    background-color: transparent;
+}
+
+.input_wrapper_select_multiple {
+    padding:2px;
+    background-color: #fff;
+}
+
+.input_wrapper_select_box .form_input_text
+{
+    width: 194px;
+    height: 15px;
+}
+
+.form_input_text,
+.form_input_email,
+.form_input_url,
+.form_input_date,
+.form_input_datetime,
+.form_input_password,
+.form_input_number,
+.form_input_slider,
+.form_input_range,
+.form_input_doublerange
+{
+    border: none;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.form_input_textarea {
+    border: none;
+    background-color: #ffffff;
+    width: 100%;
+    height: 157px;
+    resize: none;
+}
+
+.input_wrapper_text,
+.input_wrapper_email,
+.input_wrapper_url,
+.input_wrapper_date,
+.input_wrapper_datetime,
+.input_wrapper_password,
+.input_wrapper_number,
+.input_wrapper_textarea
+{
+    width: 196px;
+}
+
+.form_input_select_multiple
+{
+    height: 160px;
+    border: none;
+}
+
+.input_wrapper_value {
+    padding-top: 2px;
+    font-weight: bold;
+    white-space: normal;
+}
+
+.form_input_radio,
+.form_input_checkbox {
+    vertical-align:middle;
+}
+
+.form_input_radio {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.input_wrapper label
+{
+    vertical-align: middle;
+}
+
+.form_advanced_table .colspan .input_wrapper {
+    /*width: 100%;*/
+    width: auto;
+}
+
+/* * * * [end] Inputs and Wrappers * * * */
+.button_wrapper {
+	float: left;
+}
+.input_wrapper_input_set .button_wrapper {
+	margin-left: 5px;
+}
+.input_wrapper_input_set .button_wrapper:first-child {
+	margin-left: 0px;
+} 
+
+.form_advanced_table .sys-icon.multiply_add_button,
+.form_advanced_table .sys-icon.multiply_remove_button,
+.form_advanced_table .sys-icon.multiply_other_button,
+.form_advanced_table .sys-icon.reload_button,
+.form_advanced_table .sys-icon.info,
+.form_advanced_table .sys-icon.warn {
+    display: block;
+    float: left;
+    min-width:16px;
+    min-height:16px;
+    margin-left:3px;
+    margin-top:5px;
+    font-size:16px;
+    vertical-align:middle;
+    cursor: pointer;
+}
+.form_advanced_table .sys-icon.info {
+    color:#006699;
+    cursor: help;
+}
+.form_advanced_table .sys-icon.warn {
+    display: none;
+    color:#c00;
+    cursor: help;    
+}
+.error .sys-icon.warn {
+    display: block;
+}
+.form_advanced_table .sys-icon.multiply_remove_button {
+    color:#c00;
+}
+.form_advanced_table .sys-icon.multiply_add_button,
+.form_advanced_table .sys-icon.multiply_other_button,
+.form_advanced_table .sys-icon.reload_button {
+    color:#090;
+}
+/* * * * * */
+
+
+.form_advanced .ui-slider,
+.input_wrapper_doublerange .ui-slider {
+    width:auto;
+    margin-top:2px;
+    margin-left:4px;
+    margin-right:9px;
+}
+
+.input_wrapper .ui-slider .ui-slider-handle {
+    margin-top:-1px;
+    padding-left:1px;
+    padding-right:2px;
+    height:16px;
+    line-height:16px;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:12px;
+    text-align:center;
+}
+
+/* * * * * */
+
+#float_info {
+    background-color: #FFFFD7;
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    max-width: 300px;
+}
+
+.block_collapse_btn {
+    float: right;
+    display: block;    
+    position: relative;    
+    min-width:16px;
+    min-height:16px;
+    margin-top:3px;
+
+    font-size:16px;
+    color:#999;
+    text-align:center;
+    cursor: pointer;
+}
+
+.form_input_toggle_html {
+    margin-top:5px;
+}
+
+/* * * * * Other forms customization * * * * */
+
+.quick_search_form1_wrapper .form_input_file,
+.quick_search_form1_wrapper .form_input_select,
+.quick_search_form1_wrapper .form_input_select_multiple,
+.quick_search_form1_wrapper .form_input_select_box,
+.quick_search_form1_wrapper .form_input_slider,
+.quick_search_form2_wrapper .form_input_file,
+.quick_search_form2_wrapper .form_input_select,
+.quick_search_form2_wrapper .form_input_select_multiple,
+.quick_search_form2_wrapper .form_input_select_box,
+.quick_search_form2_wrapper .form_input_slider,
+.simple_search_form1_wrapper .form_input_file,
+.simple_search_form1_wrapper .form_input_select,
+.simple_search_form1_wrapper .form_input_select_multiple,
+.simple_search_form1_wrapper .form_input_select_box,
+.simple_search_form1_wrapper .form_input_slider,
+.simple_search_form2_wrapper .form_input_file,
+.simple_search_form2_wrapper .form_input_select,
+.simple_search_form2_wrapper .form_input_select_multiple,
+.simple_search_form2_wrapper .form_input_select_box,
+.simple_search_form2_wrapper .form_input_slider,
+.login_box_form_wrapper .form_input_file,
+.login_box_form_wrapper .form_input_select,
+.login_box_form_wrapper .form_input_select_multiple,
+.login_box_form_wrapper .form_input_select_box,
+.login_box_form_wrapper .form_input_slider {
+    width: 124px;
+}
+
+.quick_search_form1_wrapper .input_wrapper_text,
+.quick_search_form1_wrapper .input_wrapper_email,
+.quick_search_form1_wrapper .input_wrapper_url,
+.quick_search_form1_wrapper .input_wrapper_date,
+.quick_search_form1_wrapper .input_wrapper_datetime,
+.quick_search_form1_wrapper .input_wrapper_password,
+.quick_search_form1_wrapper .input_wrapper_number,
+.quick_search_form1_wrapper .input_wrapper_textarea,
+.quick_search_form2_wrapper .input_wrapper_text,
+.quick_search_form2_wrapper .input_wrapper_email,
+.quick_search_form2_wrapper .input_wrapper_url,
+.quick_search_form2_wrapper .input_wrapper_date,
+.quick_search_form2_wrapper .input_wrapper_datetime,
+.quick_search_form2_wrapper .input_wrapper_password,
+.quick_search_form2_wrapper .input_wrapper_number,
+.quick_search_form2_wrapper .input_wrapper_textarea,
+.simple_search_form1_wrapper .input_wrapper_text,
+.simple_search_form1_wrapper .input_wrapper_email,
+.simple_search_form1_wrapper .input_wrapper_url,
+.simple_search_form1_wrapper .input_wrapper_date,
+.simple_search_form1_wrapper .input_wrapper_datetime,
+.simple_search_form1_wrapper .input_wrapper_password,
+.simple_search_form1_wrapper .input_wrapper_number,
+.simple_search_form1_wrapper .input_wrapper_textarea,
+.simple_search_form2_wrapper .input_wrapper_text,
+.simple_search_form2_wrapper .input_wrapper_email,
+.simple_search_form2_wrapper .input_wrapper_url,
+.simple_search_form2_wrapper .input_wrapper_date,
+.simple_search_form2_wrapper .input_wrapper_datetime,
+.simple_search_form2_wrapper .input_wrapper_password,
+.simple_search_form2_wrapper .input_wrapper_number,
+.simple_search_form2_wrapper .input_wrapper_textarea,
+.login_box_form_wrapper .input_wrapper_text,
+.login_box_form_wrapper .input_wrapper_email,
+.login_box_form_wrapper .input_wrapper_url,
+.login_box_form_wrapper .input_wrapper_date,
+.login_box_form_wrapper .input_wrapper_datetime,
+.login_box_form_wrapper .input_wrapper_password,
+.login_box_form_wrapper .input_wrapper_number,
+.login_box_form_wrapper .input_wrapper_textarea,
+.subscribe_form_wrapper .input_wrapper_text,
+.profile_edit_privacy_wrapper .input_wrapper_select,
+.profile_edit_membership_wrapper .input_wrapper_select,
+.profile_edit_membership_wrapper .input_wrapper_text,
+.simple_messenger_wrapper .input_wrapper_select {
+    width: 135px;
+}
+
+.profile_edit_privacy_wrapper .input_wrapper_select .form_input_select,
+.profile_edit_membership_wrapper .input_wrapper_select .form_input_select,
+.simple_messenger_wrapper .input_wrapper_select .form_input_select {
+	width: 100%;
+}
+
+
+/* * * * * location field * * * * */
+.location_wrapper > div:first-child {
+    margin-bottom:5px;
+}
+
+.location_wrapper .form_input_metric {
+    width:auto;
+}
+
+.location_wrapper .form_input_distance,
+.location_wrapper .form_input_zip {
+    padding:1px;
+    width:50px;
+}
+
+::-webkit-calendar-picker-indicator {
+    display: none;
+}
+

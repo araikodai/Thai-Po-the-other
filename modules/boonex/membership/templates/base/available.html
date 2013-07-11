@@ -1,0 +1,26 @@
+<div class="mbp-available-levels">
+    <bx_repeat:levels>
+        <div class="mbp-level">
+            <div class="mbp-level-icon" style="background-image:url(__icon__);">
+                <img src="<bx_image_url:spacer.gif />" />
+            </div>
+            <div class="mbp-level-price">
+                <div class="text">__price__ <span class="mbp-level-curr-code bx-def-font-grayed">__currency_code__</span></div>
+            </div>
+            <div class="mbp-level-content">
+                <div class="mbp-level-title">
+                    <a href="javascript: void(0)" onclick="javascript: loadHtmlInPopup('explanation_popup', '__url_root__explanation.php?explain=membership&type=__id__');">__title__</a> (__days__)
+                </div>                
+                <div class="mbp-level-info">__description__</div>
+                <div class="mbp-level-control">
+                    __add_to_cart__
+                    <button class="bx-btn bx-btn-img bx-btn-ifont" onclick="javascript: loadHtmlInPopup('explanation_popup', '__url_root__explanation.php?explain=membership&type=__id__');">
+                        <i class="sys-icon info-sign"></i>
+                        <bx_text:_membership_txt_explanation />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </bx_repeat:levels>
+    <div class="mbp-cb">&nbsp;</div>
+</div>

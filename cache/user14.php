@@ -1,0 +1,59 @@
+<?php
+
+$aUser[14] = array();
+$aUser[14]['datafile'] = true;
+$aUser[14]['ID'] = '14';
+$aUser[14]['NickName'] = 'SOW1232';
+$aUser[14]['Email'] = 'nagai@tb3.so-net.ne.jp';
+$aUser[14]['Password'] = '51121cbd113c2c7073e78ce0b13e60697d2e1d3d';
+$aUser[14]['Salt'] = 'gj4PYYhv';
+$aUser[14]['Status'] = 'Active';
+$aUser[14]['Role'] = '1';
+$aUser[14]['Couple'] = '0';
+$aUser[14]['Sex'] = 'male';
+$aUser[14]['LookingFor'] = '';
+$aUser[14]['Headline'] = 'こちらでもよろしくお願いします。';
+$aUser[14]['DescriptionMe'] = '<p>新Thai:P0活性化のため参加致しました。</p>
+<p>将来の夢は、タイ移住ですが．．．どーなる事やら（笑）</p>
+<p></p>
+<p></p>';
+$aUser[14]['Country'] = 'JP';
+$aUser[14]['City'] = 'Aichi';
+$aUser[14]['DateOfBirth'] = '1968-10-02';
+$aUser[14]['Featured'] = '0';
+$aUser[14]['DateReg'] = '2013-07-11 16:49:03';
+$aUser[14]['DateLastEdit'] = '2013-07-11 17:03:55';
+$aUser[14]['DateLastLogin'] = '2013-07-11 16:49:03';
+$aUser[14]['DateLastNav'] = '2013-07-11 17:46:07';
+$aUser[14]['aff_num'] = '0';
+$aUser[14]['Tags'] = '';
+$aUser[14]['zip'] = '　1';
+$aUser[14]['EmailNotify'] = '1';
+$aUser[14]['LangID'] = '1';
+$aUser[14]['UpdateMatch'] = '1';
+$aUser[14]['Views'] = '1';
+$aUser[14]['Rate'] = '0';
+$aUser[14]['RateCount'] = '0';
+$aUser[14]['CommentsCount'] = '0';
+$aUser[14]['PrivacyDefaultGroup'] = '3';
+$aUser[14]['allow_view_to'] = '3';
+$aUser[14]['UserStatus'] = 'online';
+$aUser[14]['UserStatusMessage'] = '';
+$aUser[14]['UserStatusMessageWhen'] = '0';
+$aUser[14]['Avatar'] = '18';
+$aUser[14]['Height'] = '';
+$aUser[14]['Weight'] = '';
+$aUser[14]['Income'] = '';
+$aUser[14]['Occupation'] = '';
+$aUser[14]['Religion'] = '';
+$aUser[14]['Education'] = '';
+$aUser[14]['RelationshipStatus'] = 'Single';
+$aUser[14]['Hobbies'] = '';
+$aUser[14]['Interests'] = '';
+$aUser[14]['Ethnicity'] = '';
+$aUser[14]['FavoriteSites'] = '';
+$aUser[14]['FavoriteMusic'] = '';
+$aUser[14]['FavoriteFilms'] = '';
+$aUser[14]['FavoriteBooks'] = '';
+$aUser[14]['FirstName'] = 'Takeshi';
+$aUser[14]['LastName'] = 'Nagai';

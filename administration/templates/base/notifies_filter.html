@@ -1,0 +1,10 @@
+<script type="text/javascript" language="JavaScript">
+	function setControlsState() {
+        var elements = $(".form_queue_form input[name='sex[]'],.form_queue_form select[name=age_start],.form_queue_form select[name=age_end],.form_queue_form select[name=country],.form_queue_form select[name=membership]");
+        if ($('.form_queue_form input[name=send_to_members]:checked').length)
+            elements.removeAttr('disabled');            
+        else
+            elements.attr('disabled', 'disabled');
+	}
+</script>
+<center></center>

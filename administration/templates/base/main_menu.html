@@ -1,0 +1,54 @@
+<div class="adm-main-menu">
+    <bx_repeat:items>
+        <div class="adm-menu-wrapper bx-def-margin-sec-top-auto bx-def-border" __click__>
+            <div class="adm-menu-header __class__">
+                <bx_if:icon>
+                    <img src="__icon__" class="adm-menu-icon" />
+                </bx_if:icon>
+                <bx_if:texticon>
+                    <i class="sys-icon __icon__"></i>
+                </bx_if:texticon>
+                <bx_if:collapsible>
+                    <img src="<bx_image_url:spacer.gif />" class="adm-menu-arrow __class__" />
+                </bx_if:collapsible>
+                <bx_if:item-text>
+                    <span class="bx-def-font-h2">__title__</span>
+                </bx_if:item-text>
+                <bx_if:item-link>
+                    <a class="bx-def-font-h2" href="__link__">__title__</a>
+                </bx_if:item-link>
+            </div>
+            <bx_if:submenu>
+                <div id="adm-mmi-__id__" class="adm-menu-items-wrapper bx-def-padding-leftright bx-def-padding-sec-topbottom __class__">
+                    <bx_repeat:subitems>
+                        <div class="adm-menu-item-wrapper">
+                            <bx_if:subicon>
+                                <img src="__icon__" class="adm-menu-item-icon" />
+                            </bx_if:subicon>
+                            <bx_if:textsubicon>
+                                <i class="sys-icon __icon__"></i>
+                            </bx_if:textsubicon>
+                            <bx_if:subitem-text>
+                                __title__
+                            </bx_if:subitem-text>
+                            <bx_if:subitem-link>
+                                <a href="__link__" __onclick__>__title__</a>
+                            </bx_if:subitem-link>
+                        </div>
+                    </bx_repeat:subitems>
+                </div>
+            </bx_if:submenu>
+        </div>
+    </bx_repeat:items>
+    <script type="text/javascript" language="JavaScript">
+    <!--
+        $('.adm-main-menu .adm-menu-header').bind('click', function() {
+        	adminMenuCollapse(this);
+        }).bind('mouseover', function() {
+        	$(this).addClass('adm-mmh-hover');
+        }).bind('mouseout', function() {
+        	$(this).removeClass('adm-mmh-hover');
+        });
+    -->
+    </script>
+</div>

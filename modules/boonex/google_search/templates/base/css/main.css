@@ -1,0 +1,11 @@
+
+.bx_gsearch_container {
+    text-align:center;
+    min-height:64px;
+    position:relative;
+}
+
+.bx_gsearch_container .gsc-control {
+    width:100%;
+    text-align:left;
+}

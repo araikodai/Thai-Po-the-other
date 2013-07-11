@@ -1,0 +1,46 @@
+.msg_ajax {
+	width:363px;
+	height:268px;
+	position:absolute;
+	z-index:1000;
+	display:block;
+	left:25px;
+}
+
+.msg_left_side {	
+	position:relative;
+	float:left;
+}
+
+.msg_right_side {
+	position:relative;
+	float:left;
+}
+
+.msg_right_side .msg_sender {
+	overflow:hidden;
+	width:227px;
+	height:auto;
+}
+
+.msg_right_side .msg_sender a {
+	font-weight:bold;
+}
+
+.msg_window {
+	width:100%;
+    border:20px solid #ccc;
+    border:20px solid rgba(128,128,128, 0.5);
+}
+
+.msg_window_content {
+    background-color:#fff;
+}
+
+.msg-post-body {
+    width:227px;
+    margin-top:5px;
+    background-color: #e9ecff;
+}
+
+

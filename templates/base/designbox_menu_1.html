@@ -1,0 +1,41 @@
+<div id="dbTopMenu__id__" class="dbTopMenu">
+    <div class="dbTmLeft bx-def-padding-sec-right">
+        <a href="javascript:void(0)" onmouseover="javascript:moveScrollLeftAuto('dbTmContent__id__', true)" onmouseout="javascript:moveScrollLeftAuto('dbTmContent__id__', false)">&#8249;</a>
+    </div>
+    <div class="dbTmCenter">
+        <div id="dbTmContent__id__" class="dbTmContent">
+        	<table class="dbTmCntLine">
+        		<tr>
+		            <bx_repeat:items>
+		                <bx_if:show_bullet>
+		                    <td class="bullet"><span>&#183;</span></td>
+		                </bx_if:show_bullet>
+		                <bx_if:item_act>
+		                    <td class="active">
+		                        <bx_if:icon_act><img class="__class__" src="__src__" /></bx_if:icon_act>
+		                        <bx_if:texticon_act><i class="sys-icon __icon__"></i></bx_if:texticon_act>
+		                        <span>__title__</span>
+		                    </td>
+		                </bx_if:item_act>
+		                <bx_if:item_pas>
+		                    <td class="notActive">
+		                        <bx_if:icon_pas><img class="__class__" src="__src__" /></bx_if:icon_pas>
+		                        <bx_if:texticon_pas><i class="sys-icon __icon__"></i></bx_if:texticon_pas>
+		                        <a __id__ href="__href__" class="__class__" __target__ __on_click__>__title__</a>
+		                    </td>
+		                </bx_if:item_pas>
+		            </bx_repeat:items>
+            	</tr>
+            </table>
+        </div>
+    </div>
+    <div class="dbTmRight bx-def-padding-sec-left">
+        <a href="javascript:void(0)" onmouseover="javascript:moveScrollRightAuto('dbTmContent__id__', true)" onmouseout="javascript:moveScrollRightAuto('dbTmContent__id__', false)">&#8250;</a>
+    </div>
+    <div class="clear_both">&nbsp;</div>
+    <script type="text/javascript" language="javascript">
+        $('#dbTopMenu__id__').addClass('dbTopMenuHidden').parents('.disignBoxFirst').ready(function() {
+            dbTopMenuLoad('__id__');
+        });
+    </script>
+</div>

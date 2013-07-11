@@ -1,0 +1,83 @@
+.page_protect_table {
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.page_protect_table td {
+	border-bottom: 1px solid #ccc;
+}
+.page_protect_table td .bx-btn {
+	float: none;
+	margin: 10px 0px 0px 0px;
+}
+.page_protect_table td .bx-btn:first-child {
+	margin-top: 0px;
+}
+.header_row {
+	background-color:#E5E5E5;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.pageac_menu_section {
+	border: 1px solid green;
+}
+.pageac_top_menu_item,
+.pageac_custom_menu_item,
+.pageac_system_menu_item {
+	width: 92px;
+	height: 21px;
+	overflow:hidden;
+	padding:7px 5px 0 20px;
+	white-space:nowrap;
+}
+.pageac_top_menu_item {
+	background: url(../images/top_item_bg.gif) no-repeat;
+}
+.pageac_custom_menu_item {
+	background: url(../images/custom_item_bg.gif) no-repeat;
+}
+.pageac_system_menu_item {
+	background: url(../images/system_item_bg.gif) no-repeat;
+}
+.pageac_top_menu_item a,
+.pageac_custom_menu_item a,
+.pageac_system_menu_item a{
+	color:#6666CC;
+	display:block;
+	overflow:hidden;
+	text-decoration:none;
+	font-size: 11px;
+}
+
+.pageac_column_cont {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 3px;
+	margin: 5px;
+	text-align: center;
+	overflow: hidden;
+}
+.pageac_column_header {
+	background-color: #ccc;
+	padding: 3px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.pageac_column_block {
+	background:url(../images/block_header.gif) no-repeat;
+	font-size:11px;
+	height:22px;
+	margin:0 auto 2px;
+	padding-top:6px;
+	text-align:center;
+	text-transform:capitalize;
+	width:142px;
+}
+p.pageac_notes {
+	text-indent: 20px;
+	padding: 5px;
+}

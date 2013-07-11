@@ -1,0 +1,21 @@
+2013-07-06 17:16:09	Cannot complete query [SELECT `act_current` FROM `bx_forum_user_activity` WHERE `user`  = 'araikodai' LIMIT 1] (getOne): Table 'araikodai_newthaipo.bx_forum_user_activity' doesn't exist
+2013-07-06 17:16:09	Cannot complete query [SELECT COUNT(*) FROM `bx_forum_user_activity` WHERE `user`  = 'araikodai' LIMIT 1] (getOne): Table 'araikodai_newthaipo.bx_forum_user_activity' doesn't exist
+2013-07-06 17:16:09	Cannot complete query (query): Table 'araikodai_newthaipo.bx_forum_user_activity' doesn't exist
+2013-07-06 17:16:09	Cannot complete query [SELECT `act_last` FROM `bx_forum_user_activity` WHERE `user`  = 'araikodai' LIMIT 1] (getOne): Table 'araikodai_newthaipo.bx_forum_user_activity' doesn't exist
+2013-07-06 17:16:09	Cannot complete query [SELECT
+                f1.`topic_id`, f1.`topic_uri`, `topic_title`, `first_post_user`, `topic_posts` AS `count_posts`, `topic_sticky`, `topic_locked`,
+                `first_post_when` AS `first_when`, `last_post_user`,
+                `last_post_when` AS `last_when`, `last_post_when`,
+                `tf`.`forum_id`, `tf`.`forum_uri`, `tf`.`forum_title`,
+                `tc`.`cat_id`, `tc`.`cat_uri`, `tc`.`cat_name`
+            FROM `bx_forum_topic` AS f1
+            INNER JOIN `bx_forum` AS `tf` ON (`tf`.`forum_id` = `f1`.`forum_id`)
+            INNER JOIN `bx_forum_cat` AS `tc` ON (`tc`.`cat_id` = `tf`.`cat_id`)
+            WHERE f1.`topic_hidden` = '0'
+            ORDER BY `last_post_when` DESC, f1.`topic_id` DESC
+            LIMIT 0, 10] (getAll) : Table 'araikodai_newthaipo.bx_forum_topic' doesn't exist
+2013-07-06 17:16:09	Cannot complete query [SELECT COUNT(`topic_id`) FROM `bx_forum_topic` WHERE 1  AND `topic_hidden` = '0' ] (getOne): Table 'araikodai_newthaipo.bx_forum_topic' doesn't exist
+2013-07-06 17:16:52	Cannot complete query [SELECT `act_current` FROM `bx_forum_user_activity` WHERE `user`  = 'araikodai' LIMIT 1] (getOne): Table 'araikodai_newthaipo.bx_forum_user_activity' doesn't exist
+2013-07-06 17:16:52	Cannot complete query [SELECT COUNT(*) FROM `bx_forum_user_activity` WHERE `user`  = 'araikodai' LIMIT 1] (getOne): Table 'araikodai_newthaipo.bx_forum_user_activity' doesn't exist
+2013-07-06 17:16:52	Cannot complete query (query): Table 'araikodai_newthaipo.bx_forum_user_activity' doesn't exist
+2013-07-06 17:16:52	Cannot complete query [SELECT `tc`.`cat_id`, `tc`.`cat_uri`, `tc`.`cat_name`, `tc`.`cat_icon`, `tc`.`cat_expanded`, SUM(`tf`.`forum_posts`) AS `count_posts`, SUM(`tf`.`forum_topics`) AS `count_topics`, COUNT(`tf`.`forum_id`) AS `count_forums` FROM `bx_forum_cat` AS `tc` LEFT JOIN `bx_forum` AS `tf` ON  (`tc`.`cat_id` = `tf`.`cat_id`) GROUP BY `tc`.`cat_id` ORDER BY `tc`.`cat_order` ASC] (getAll) : Table 'araikodai_newthaipo.bx_forum_cat' doesn't exist

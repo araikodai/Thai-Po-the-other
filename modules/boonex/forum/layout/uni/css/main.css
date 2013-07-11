@@ -1,0 +1,14 @@
+@import url("../../base/css/main.css");
+
+#orca_main {
+    width:100%;
+}
+
+#bx_forum_search_input {
+    padding:0; 
+    width:100%; 
+    border:none; 
+    outline:none; 
+    background-color:transparent;
+}
+

@@ -1,0 +1,20 @@
+<div class="message_block">
+	<div class="icon_block ib_empty thumbnail_block_icon">
+		<i class="sys-icon user"></i>
+	</div>
+    <div class="content">
+        <bx_if:delete_allowed>
+	        <a href="javascript:void(0)" title="__delete_cpt__" onclick="if( confirm('__sure_cpt__') ){oShoutBox.deleteMessage(__message_id__, this)}">
+	        	<i class="sys-icon remove"></i>
+	        </a>
+        </bx_if:delete_allowed>
+        <bx_if:block_allowed>
+	        <a href="javascript:void(0)" title="__block_cpt__" onclick="if( confirm('__sure_cpt__') ){oShoutBox.blockMessage(__message_id__)}">
+	            <i class="sys-icon ban-circle"></i>
+	        </a>
+        </bx_if:block_allowed>
+        <span class="date">__date__</span>
+    </div>
+    <div><span class="by">__by__</span> <a href="__owner_link__">__owner_nick__</a></div>
+    <div>__message__</div>
+</div>

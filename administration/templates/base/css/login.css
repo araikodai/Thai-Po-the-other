@@ -1,0 +1,144 @@
+body,
+input {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+a img {
+	border: none;
+}
+
+/*--- Login Form ---*/
+.admin_login_wrapper {
+	position:absolute;
+
+    top:50%;
+    left:50%;
+    width: 680px;
+    margin-left:-340px;
+    margin-top:-150px;
+}
+
+.admin_login {
+    background-image: url(../images/admin_login_bg.png);
+}
+
+.admin_login a,
+.admin_login a:link,
+.admin_login a:visited {
+	color: #3333cc;
+	text-decoration: none;
+}
+
+.admin_login a:hover,
+.admin_login a:active {
+	text-decoration: underline;
+}
+
+.admin_login_icon {
+	position: absolute;
+	top: -195px;
+	left: -290px;
+	width: 654px;
+	height: 654px;
+}
+
+.admin_login_form_wrapper {
+	margin: 30px 60px 30px 0px;
+}
+
+.admin_login_form {
+	position: relative;
+	float: right;
+}
+
+.admin_login_table td {
+	vertical-align: middle;
+}
+
+.admin_lff_caption {
+	font-weight: bold;
+}
+
+#admin_password,
+#admin_username {
+	position: relative;
+	z-index: 3;
+	width: 251px;
+    height: 23px;
+    padding: 10px;
+	vertical-align: middle;
+}
+
+/*--- License Note ---*/
+div.admin_license {
+	position: relative;
+	background-image: url(../images/admin_license_bg.png);
+	background-repeat: repeat-x;
+}
+div.admin_license_icon {
+	position: absolute;
+	top: 0px;
+	left: 210px;
+	width: 32px;
+	height: 50px;
+}
+div.admin_license_icon img {
+	width: 32px;
+	height: 32px;
+	margin: 9px 0px;
+}
+div.admin_license_cnt {
+	position: relative;
+	height: 50px;
+	padding-left: 250px;
+	line-height: 50px;
+}
+div.admin_license a {
+	font-weight: bold;
+}
+
+/*--- License Form ---*/
+div.admin_license_form_wrp,
+div.admin_license_form_popup {
+	position: absolute;
+	z-index: 3;
+	width: 620px;
+}
+div.admin_license_form_popup {
+	display: none;
+}
+div.admin_license_form_wrp {
+	left: 50%;
+    top: 50%;
+	margin-left: -265px;
+    margin-top: -74px;
+}
+div.admin_license_form {
+	background-image: url(../images/admin_license_bg.png);
+}
+div.admin_license_continue {}
+
+div.admin_license_message {
+	font-weight: normal;
+}
+div.admin_license_cell,
+div.admin_license_cell_cpt {
+	position: relative;
+	float: left;
+}
+div.admin_license_cell_cpt {
+	line-height: 38px;
+}
+#admin_login_license {
+	position: relative;
+    z-index: 3;
+    width: 300px;
+    height: 16px;
+    padding: 10px;
+    vertical-align: middle;
+}

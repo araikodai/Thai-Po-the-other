@@ -1,0 +1,1 @@
+<div class="bx-def-bc-padding-thd"><?=$a['content'];?></div>

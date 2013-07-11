@@ -1,0 +1,48 @@
+<div class="admin_login_wrapper">
+    <div class="admin_login bx-def-border">
+    	<div class="admin_login_form_wrapper">
+        	<form class="admin_login_form" action="__action_url__" method="post" onsubmit="javascript: validateLoginForm(this); return false;">
+            	<input type="hidden" name="relocate" value="__relocate_url__" />
+                <table cellspacing="15" cellpadding="0" class="admin_login_table">
+                    <tr>
+                        <td>
+                            <p class="admin_lff_caption bx-def-font-large">
+                                <bx_text:_adm_txt_login_username />
+                            </p>
+                            <input type="text" name="ID" id="admin_username" class="bx-def-round-corners-with-border bx-def-font-large" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="admin_lff_caption bx-def-font-large">
+                                <bx_text:_adm_txt_login_password />
+                            </p>
+                            <input type="password" name="Password" id="admin_password" class="bx-def-round-corners-with-border bx-def-font-large" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="bx-btn" type="submit" id="admin_login_form_submit">
+                                <bx_text:_adm_btn_login_login />
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div class="clear_both"></div>
+        </div>
+    </div>
+
+    <bx_if:show_unregistered>
+        <div class="admin_license bx-def-border bx-def-margin-top">
+            <div class="admin_license_icon">
+                <img src="<bx_image_url:admin_license_icon.png />" />
+            </div>
+            <div class="admin_license_cnt">
+                <bx_text:_adm_license_trial_copy_login_text />
+            </div>
+        </div>
+    </bx_if:show_unregistered>
+
+    <img class="admin_login_icon" src="<bx_image_url:admin_login_icon.png />" />
+</div>

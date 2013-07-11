@@ -1,0 +1,45 @@
+
+    div.shoutbox_wrapper {
+        height:300px;
+        background-color:#fff;
+        border:1px solid #DADADA;
+        overflow-x:hidden;
+    	overflow-y:scroll\9;
+        position:relative;
+        padding-top:5px;
+    }
+	
+    div.message_block {
+        padding-top:5px;
+        padding-right:10px;
+        padding-left:10px;
+        white-space:normal;
+        padding-bottom:5px;
+    }
+
+    div.message_block .sys-icon {
+        display:inline-block;
+        min-height:11px;
+        min-width:11px;
+        vertical-align:middle;        
+        text-decoration:none;
+    }
+
+    div.message_block a.act {
+        text-decoration:none;
+    } 
+
+    div.message_block div.icon_block {
+       float:left;
+       margin-right:5px;
+    }
+
+    div.message_block div.ib_empty {
+    	line-height: 38px;
+		text-align: center;
+    	font-size: 26px;
+    }
+
+    div.shoutbox_send_field {
+        width:99% !important;
+    }

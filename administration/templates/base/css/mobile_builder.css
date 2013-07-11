@@ -1,0 +1,23 @@
+
+.bx-sortable-item {    
+    cursor:pointer;
+    height:30px;
+    margin-bottom:5px;
+}
+
+.bx-sortable-placeholder {
+    cursor:pointer;
+    height:30px;
+    margin-bottom:5px;
+    background-image:url(../images/ph_bg.gif);
+}
+
+.bx-sortable-container-wrapper {
+	position: relative;
+	float: left;
+    width: 311px;
+    margin-left: 10px;
+}
+.bx-sortable-container-wrapper:first-child {
+	margin-left: 0px;
+}
