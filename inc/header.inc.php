@@ -37,12 +37,12 @@ $CONVERT                   = "/usr/bin/convert";
 $COMPOSITE                 = "/usr/bin/composite";
 $PHPBIN                    = "/usr/local/bin/php";
 
-$db['host']                = 'mysql17.xserver.jp';
+$db['host']                = '';
 $db['sock']                = '';
 $db['port']                = '';
-$db['user']                = 'araikodai_owner';
-$db['passwd']              = 'czrs8z1c';
-$db['db']                  = 'araikodai_newthaipo';
+$db['user']                = '';
+$db['passwd']              = '';
+$db['db']                  = '';
 
 define('BX_DOL_URL_ROOT', $site['url']);
 define('BX_DOL_URL_ADMIN', $site['url_admin']);
